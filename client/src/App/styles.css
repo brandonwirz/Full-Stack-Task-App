@@ -1,0 +1,169 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css");
+
+
+body {
+  margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* nav---------------------------------*/
+nav {
+      background-color: #c9c9c9;
+      border-bottom: black solid 1px;
+      height: 120px;
+      text-align: center;
+      padding-top: 40px;
+      background: #abbaab;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(171, 186, 171, .8));  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to bottom, rgba(255, 255, 255,.8), rgba(171, 186, 171, .8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav a {
+     font-family: arial;
+     margin:0 5px 0 5px;
+
+     color: #222;
+}
+
+a {
+  padding-top: 20px;
+}
+
+
+/* form--------------------------------*/
+form{
+    margin:0 auto;
+    text-align: center;
+    width:400px;
+    height: 280px;
+
+
+    margin-top: 40px;
+    /* background: #abbaab;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, .5), rgba(171, 186, 171, .5));  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255,.5), rgba(171, 186, 171, .5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.inputs{
+    line-height: 25px;
+}
+button{
+    margin-top:10px;
+}
+
+.add-job-form{
+    margin:0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width:450px;
+    height: 280px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 40px;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, .5), rgba(171, 186, 171, .5));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255,.5), rgba(171, 186, 171, .5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* Task list---------------------------*/
+.jobs-to-checkout{
+
+  background-color: #d0e1f4;
+    /*border:4px solid blue;
+    border-left-width: 10px;
+    border-radius:6px;
+    padding-left:10px;
+    line-height: 5px;
+    height:170px; */
+}
+.in-progress{
+
+  background-color: #f3dbe1;
+    /* border:4px solid red;
+    border-left-width: 10px;
+    border-radius:6px;
+    padding-left:10px;
+    line-height: 5px;
+    height:170px; */
+}
+.jobs-done{
+
+  background-color: #dbf3e1;
+    /* border:4px solid green;
+    border-left-width: 10px;
+    border-radius:6px;
+    padding-left:10px;
+    line-height: 5px;
+    height:170px; */
+}
+
+
+.row{
+     width:100%;
+     /* padding:20px; */
+     margin: 0 auto;
+}
+
+.column{
+
+
+    width: 100%;
+    padding: 50px;
+
+    height: auto;
+    border: 1px solid grey;
+    border-radius:6px;
+    margin: 0 auto;
+    display: block;
+
+
+}
+
+
+@media screen and ( min-width:600px ){
+
+
+
+  .row{
+       width:1000px;
+       /* padding:20px; */
+       margin: 0 auto;
+  }
+  .column{
+
+    float:left;
+    width: 31.33%;
+    padding: 10px;
+    height: 600px;
+    border: 1px solid grey;
+    border-radius:6px;
+    margin: 0 5px;
+    display: inline-block;
+  }
+
+}
+
+.dipslay-tasks{
+
+}
+.columnDisplay{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+
+/* footer---------------------------------
+footer {
+    height: 50px;
+    background-color: #c9c9c9;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+}
+*/
